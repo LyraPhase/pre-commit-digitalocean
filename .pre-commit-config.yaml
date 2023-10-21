@@ -38,3 +38,7 @@ repos:
               vendor/.*|
               tmp/.*
           )$
+-   repo: https://github.com/pre-commit/pre-commit.git
+    rev: v3.5.0
+    hooks:
+    - id: validate_manifest
