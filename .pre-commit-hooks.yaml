@@ -1,0 +1,6 @@
+- id: doctl-app-spec-validate
+  name: DigitalOcean App Spec Validate
+  description: Check YAML App Spec Syntax with doctl app spec validate
+  entry: hooks/doctl-app-spec-validate.sh
+  language: script
+  types: [shell]
