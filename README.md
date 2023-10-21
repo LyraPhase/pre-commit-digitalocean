@@ -33,7 +33,7 @@ Example `.pre-commit-config.yaml`:
 
 ```yaml
 -   repo: git://github.com/LyraPhase/pre-commit-digitalocean
-    rev: v1.0.6
+    rev: v0.0.1
     hooks:
     - id: doctl-app-spec-validate
       args: [--verbose]
