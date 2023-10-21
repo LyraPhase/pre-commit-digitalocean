@@ -7,7 +7,7 @@ DEBUG=${DEBUG:=0}
 [ "$DEBUG" -eq "1" ] && set -o xtrace
 
 if ! command which doctl > /dev/null 2>&1; then
-  >&2 echo 'shellcheck command not found'
+  >&2 echo 'doctl command not found'
   exit 1
 fi
 
