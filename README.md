@@ -32,7 +32,7 @@ hook, which runs [doctl][2] to check DigitalOcean App Spec files (`.do/app.yaml`
 Example `.pre-commit-config.yaml`:
 
 ```yaml
-- repo: git://github.com/LyraPhase/pre-commit-digitalocean
+- repo: https://github.com/LyraPhase/pre-commit-digitalocean.git
   rev: v0.0.1
   hooks:
   - id: doctl-app-spec-validate
