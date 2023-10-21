@@ -3,9 +3,9 @@
   description: Check YAML App Spec Syntax with doctl app spec validate
   entry: hooks/doctl-app-spec-validate.sh
   language: script
-  types: [shell]
+  types: [yaml]
   pass_filenames: true
   files: |
       (?x)^(
-          \.do/app\.y(a)?ml
+          .do\/app\.ya?ml
       )$
