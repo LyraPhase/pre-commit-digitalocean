@@ -4,3 +4,8 @@
   entry: hooks/doctl-app-spec-validate.sh
   language: script
   types: [shell]
+  pass_filenames: true
+  files: |
+      (?x)^(
+          \.do/app\.y(a)?ml
+      )$
