@@ -11,4 +11,4 @@ if ! command which doctl > /dev/null 2>&1; then
   exit 1
 fi
 
-doctl app spec validate-offline "$@"
+doctl app spec validate "$@" --schema-only

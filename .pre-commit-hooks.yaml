@@ -11,7 +11,7 @@
       )$
 - id: doctl-app-spec-validate-offline
   name: DigitalOcean App Spec Validate Offline (schema-only)
-  description: Check YAML App Spec Syntax with doctl app spec validate-offline
+  description: Check YAML App Spec Syntax with doctl app spec validate --schema-only
   entry: hooks/doctl-app-spec-validate-offline.sh
   language: script
   types: [yaml]
